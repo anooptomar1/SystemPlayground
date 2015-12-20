@@ -27,15 +27,46 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
         UIView.animateWithDuration(5) { () -> Void in
             self.messageLabel.center.y += 300
         }
-        
-        memePoster()
+
+        //equalityCheck()
+        //protocolExtensionTest()
+        //perfTester()
+        //memePoster()
        // guardExampleTest()
        // errorHandlingExample()
       // ackgroundDownload()
        // operationQueueExample()
     }
     
+    func equalityCheck(){
+        let c = car()
+        let m = motorcycle()
+        let c1 = car()
+        if c == c1{
+            print("\(c.name)")
+        }
+        if c == m{
+            print("not gonna happen")
+        }else{
+            print("\(c.name) != \(m.name)")
+        }
+    }
     
+    func protocolExtensionTest(){
+        
+        print(["one", "Two", "nine", "Four", "ten"].largestString())
+        
+        if [1,2,3,4,5].canFind(6){
+            print("found")
+        }else{
+            print("bummer")
+        }
+    }
+    
+    func perfTester(){
+        PerfCounter.classPerformance()
+        PerfCounter.structPerformance()
+    }
     
     func memePoster(){
         sampleImage.image = DeferTest.overlayText(UIImage(named: "IMG_0055")!, text: "10")

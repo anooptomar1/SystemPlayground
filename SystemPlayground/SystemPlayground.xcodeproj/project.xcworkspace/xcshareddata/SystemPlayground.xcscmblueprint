@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "05A006DD96F2B2CA6AFEB9E1E9DD201CB3D9A6B2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "05A006DD96F2B2CA6AFEB9E1E9DD201CB3D9A6B2" : 0,
+    "F8D5CCC0B848103AC2897358123470ADD4BF6303" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "57B32901-4985-465C-8DF1-BAEB3F1F8B70",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "05A006DD96F2B2CA6AFEB9E1E9DD201CB3D9A6B2" : "SystemPlayground\/",
+    "F8D5CCC0B848103AC2897358123470ADD4BF6303" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SystemPlayground",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SystemPlayground\/SystemPlayground.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anooptomar1\/SystemPlayground.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05A006DD96F2B2CA6AFEB9E1E9DD201CB3D9A6B2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/anooptomar\/bt-car.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F8D5CCC0B848103AC2897358123470ADD4BF6303"
+    }
+  ]
+}
