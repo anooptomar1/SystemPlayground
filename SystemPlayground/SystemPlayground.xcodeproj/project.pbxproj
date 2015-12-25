@@ -23,6 +23,11 @@
 		89ECE4BB1C272AF60075392E /* PerfCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4BA1C272AF60075392E /* PerfCounter.swift */; };
 		89ECE4BD1C27522F0075392E /* ProtocolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4BC1C27522F0075392E /* ProtocolExtensions.swift */; };
 		89ECE4BF1C27592A0075392E /* EqualityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4BE1C27592A0075392E /* EqualityTest.swift */; };
+		89ECE4C11C2760190075392E /* ConditionalCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4C01C2760190075392E /* ConditionalCheck.swift */; };
+		89ECE4C31C27DD6A0075392E /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4C21C27DD6A0075392E /* SwitchCase.swift */; };
+		89ECE4C51C29158C0075392E /* NotificationText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4C41C29158C0075392E /* NotificationText.swift */; };
+		89ECE4C91C29D90F0075392E /* ReplayKitPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4C81C29D90F0075392E /* ReplayKitPreviewViewController.swift */; };
+		89ECE4CB1C2CC3200075392E /* ContactsFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ECE4CA1C2CC3200075392E /* ContactsFrameWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +49,11 @@
 		89ECE4BA1C272AF60075392E /* PerfCounter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfCounter.swift; sourceTree = "<group>"; };
 		89ECE4BC1C27522F0075392E /* ProtocolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolExtensions.swift; sourceTree = "<group>"; };
 		89ECE4BE1C27592A0075392E /* EqualityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualityTest.swift; sourceTree = "<group>"; };
+		89ECE4C01C2760190075392E /* ConditionalCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalCheck.swift; sourceTree = "<group>"; };
+		89ECE4C21C27DD6A0075392E /* SwitchCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
+		89ECE4C41C29158C0075392E /* NotificationText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationText.swift; sourceTree = "<group>"; };
+		89ECE4C81C29D90F0075392E /* ReplayKitPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplayKitPreviewViewController.swift; sourceTree = "<group>"; };
+		89ECE4CA1C2CC3200075392E /* ContactsFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsFrameWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +103,11 @@
 				89ECE4BA1C272AF60075392E /* PerfCounter.swift */,
 				89ECE4BC1C27522F0075392E /* ProtocolExtensions.swift */,
 				89ECE4BE1C27592A0075392E /* EqualityTest.swift */,
+				89ECE4C01C2760190075392E /* ConditionalCheck.swift */,
+				89ECE4C21C27DD6A0075392E /* SwitchCase.swift */,
+				89ECE4C41C29158C0075392E /* NotificationText.swift */,
+				89ECE4C81C29D90F0075392E /* ReplayKitPreviewViewController.swift */,
+				89ECE4CA1C2CC3200075392E /* ContactsFrameWork.swift */,
 			);
 			path = SystemPlayground;
 			sourceTree = "<group>";
@@ -173,12 +188,17 @@
 				8984A1BE1C245BBC00F51442 /* MyThread.swift in Sources */,
 				8914C3871C2634230085F064 /* DeferTest.swift in Sources */,
 				89ECE4BB1C272AF60075392E /* PerfCounter.swift in Sources */,
+				89ECE4C31C27DD6A0075392E /* SwitchCase.swift in Sources */,
+				89ECE4C11C2760190075392E /* ConditionalCheck.swift in Sources */,
+				89ECE4CB1C2CC3200075392E /* ContactsFrameWork.swift in Sources */,
 				89ECE4BF1C27592A0075392E /* EqualityTest.swift in Sources */,
 				8914C3831C24F01E0085F064 /* ErrorHandling.swift in Sources */,
 				8914C3891C264AEF0085F064 /* APIAvailableTest.swift in Sources */,
+				89ECE4C91C29D90F0075392E /* ReplayKitPreviewViewController.swift in Sources */,
 				8984A1BC1C234A1700F51442 /* DateExtensions.swift in Sources */,
 				89DD01AF1C1C97410033E092 /* ViewController.swift in Sources */,
 				8914C3851C2525A90085F064 /* GuardTest.swift in Sources */,
+				89ECE4C51C29158C0075392E /* NotificationText.swift in Sources */,
 				8984A1BA1C22795100F51442 /* NumberExtensions.swift in Sources */,
 				89DD01AD1C1C97410033E092 /* AppDelegate.swift in Sources */,
 			);

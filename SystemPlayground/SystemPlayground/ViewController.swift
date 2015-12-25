@@ -28,6 +28,10 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
             self.messageLabel.center.y += 300
         }
 
+        contactsFrameworkTest()
+        
+        //switchTest()
+        //conditionalCheck()
         //equalityCheck()
         //protocolExtensionTest()
         //perfTester()
@@ -36,6 +40,25 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
        // errorHandlingExample()
       // ackgroundDownload()
        // operationQueueExample()
+    }
+    
+    func contactsFrameworkTest(){
+        //ContactsFrameWork.createNewContact()
+        //ContactsFrameWork.searchContactByPredicate()
+        //ContactsFrameWork.searchContactsByFetchRequest()
+        //ContactsFrameWork.searchContactsWithProfileImage()
+        //ContactsFrameWork.updateContact()
+        ContactsFrameWork.deleteContact()
+    }
+    
+    func switchTest(){
+        SwitchCase.testAge()
+    }
+    
+    func conditionalCheck(){
+        ConditionalCheck.checkBeforeEnteringLoop()
+        ConditionalCheck.checkBeforeEnterKVLoop()
+        ConditionalCheck.checkInClosure()
     }
     
     func equalityCheck(){

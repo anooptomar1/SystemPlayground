@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
+        NotificationText.registerForNotifications()
 //        self.window = UIWindow()
 //        let vc = UIViewController()
         //vc.view = addSubViewsAndSuperViews(vc.view)
@@ -27,6 +28,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        self.window?.backgroundColor = UIColor.whiteColor()
 //        self.window?.makeKeyAndVisible()
         return true
+    }
+    
+    func applicationDidEnterBackground(application: UIApplication) {
+        NotificationText.scheduleNotification()
+    }
+    
+    func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forLocalNotification notification: UILocalNotification, withResponseInfo responseInfo: [NSObject : AnyObject], completionHandler: () -> Void) {
+        if let text = responseInfo[UIUserNotificationActionResponseTypedTextKey] as? String{
+            print(text)
+        }
     }
     
     func application(application: UIApplication, handleEventsForBackgroundURLSession identifier: String, completionHandler: () -> Void) {
