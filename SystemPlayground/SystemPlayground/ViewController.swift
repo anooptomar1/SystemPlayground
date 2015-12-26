@@ -27,8 +27,12 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
         UIView.animateWithDuration(5) { () -> Void in
             self.messageLabel.center.y += 300
         }
+        
+        LLTest()
 
-        contactsFrameworkTest()
+        //algoTest()
+        
+        //contactsFrameworkTest()
         
         //switchTest()
         //conditionalCheck()
@@ -40,6 +44,35 @@ class ViewController: UIViewController, NSURLSessionDownloadDelegate {
        // errorHandlingExample()
       // ackgroundDownload()
        // operationQueueExample()
+    }
+    
+    func LLTest(){
+        let ll = SwiftLL<String>()
+        if let items = ll.printList(){
+            for item in items{
+                print(item)
+            }
+        }else{
+            print("Nothing found")
+        }
+        for i in 0..<10{
+            ll.addElement("string \(i)")
+        }
+        print(ll.count)
+        ll.removeAtIndex(5)
+        print(ll.count)
+        if let items = ll.printList(){
+            for item in items{
+                print(item)
+            }
+        }
+    }
+    
+    func algoTest(){
+        SortingAlgos.bubbleSort()
+        //SortingAlgos.insertionSort()
+        //LinearVsBinarySearch.linearSearch(11)
+        //LinearVsBinarySearch.binarySearch(11)
     }
     
     func contactsFrameworkTest(){
